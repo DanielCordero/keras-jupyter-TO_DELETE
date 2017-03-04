@@ -1,0 +1,9 @@
+*~
+*.pyc
+*.class
+*.swp
+.vagrant
+*.log
+notebooks/.ipynb_checkpoints/
+playbook.retry
+
