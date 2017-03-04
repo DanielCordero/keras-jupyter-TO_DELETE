@@ -1,0 +1,21 @@
+1. Connect to the VM
+vagrant ssh
+
+2. Remove unnecessary packages
+sudo apt-get clean
+
+3. Zero out the drive
+sudo dd if=/dev/zero of=/EMPTY bs=1M
+sudo rm -f /EMPTY
+
+4. Clear bash history
+cat /dev/null > ~/.bash_history && history -c
+
+5. Exit the VM
+exit
+
+6. Repackage the VM into a Vagrant box
+vagrant package --output tf-vm-img.box
+
+7. Add the box to the Vagrant install
+vagrant box add tf-vm-img tf-vm-img.box
