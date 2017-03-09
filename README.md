@@ -1,4 +1,4 @@
-# tensorflow-ipy
+# keras-jupyter
 
 * Source code - [Github][1]
 * Author - Gavin Noronha - <gnoronha@hotmail.com>
