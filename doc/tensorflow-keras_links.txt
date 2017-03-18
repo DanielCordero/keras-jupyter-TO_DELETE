@@ -1,2 +1,5 @@
-Keras hello world
+Keras hello world notebook example
 https://github.com/fastforwardlabs/keras-hello-world/blob/master/kerashelloworld.ipynb
+
+Keras notebooks tutorial
+https://github.com/leriomaggio/deep-learning-keras-tensorflow

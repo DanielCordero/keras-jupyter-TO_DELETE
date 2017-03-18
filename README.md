@@ -109,6 +109,28 @@ First run section 1.
 
 3. Open your browser to http://192.168.33.10:8888/ to view the notebooks
 
+## Learning Keras
+
+This [tutorial][80] by Valerio Maggio presented at [Euro Scipy 2016][90] is
+a good introduction to deep learning using Keras.
+
+
+[80]: https://github.com/leriomaggio/deep-learning-keras-tensorflow
+[90]: https://www.euroscipy.org/2016/program/
+
+### 1. Change to the notebooks directory
+```
+cd /vagrant/scripts
+```
+
+### 2. Clone the repsitory
+```
+git clone https://github.com/leriomaggio/deep-learning-keras-tensorflow
+```
+
+### 3. Open your browser to http://192.168.33.10:8888/tree/deep-learning-keras-tensorflow
+
+
 ## Requirements
 
 The following software is needed to get the software from github and run

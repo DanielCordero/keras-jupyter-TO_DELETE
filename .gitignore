@@ -6,4 +6,5 @@
 *.log
 notebooks/.ipynb_checkpoints/
 playbook.retry
+notebooks/deep-learning-keras-tensorflow/
 
