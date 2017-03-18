@@ -27,66 +27,56 @@ work on Windows, Mac and Linux operating systems.
 ### 1. Start the VM
 
 1. Change to the tensorflow-ipy root directory
-
-    ```
-    cd keras-jupyter
-    ```
+```
+cd keras-jupyter
+```
 
 3. Make sure you have the latest version of vagrant (1.9.1)
-
-    ```
-    vagrant -v
-    ```
+```
+vagrant -v
+```
 
 3. Start the Virtual machine (VM)
-
-    ```
-    vagrant up
-    ```
+```
+vagrant up
+```
 
 4. Login to the VM
-
-    ```
-    vagrant ssh
-    ```
+```
+vagrant ssh
+```
 
 5. Install Jupyter notebook extensions
-
-    ```
-    jupyter contrib nbextension install --user
-    ```
+```
+jupyter contrib nbextension install --user
+```
 
 6. Install vim extension (optional)
-
-    ```
-    cd $(jupyter --data-dir)/nbextensions
-    git clone https://github.com/lambdalisue/jupyter-vim-binding vim_binding
-    ```
+```
+cd $(jupyter --data-dir)/nbextensions
+git clone https://github.com/lambdalisue/jupyter-vim-binding vim_binding
+```
 
 ### 2. Run your first TensorFlow command line program
 
 First run section 1.
 
 1. Change to the python directory
-
-    ```
-    cd /vagrant/python
-    ```
+```
+cd /vagrant/python
+```
 
 2. Set environment variable to disable warnings
-
-    ```
-    export TF_CPP_MIN_LOG_LEVEL=2
-    ```
+```
+export TF_CPP_MIN_LOG_LEVEL=2
+```
 
 2. Run the first program
+```
+python3 first-tensorflow.py
+```
 
-    ```
-    python3 first-tensorflow.py
-    ```
-
-3. Make sure the version printed on the first line of the output is the version
-   you expect. The releases are documented on this [page][70]
+3. Make sure the version printed on the first line of the output is the version you expect. The releases are documented on this [page][70]
 
 [70]: https://github.com/tensorflow/tensorflow/releases
 
@@ -95,17 +85,15 @@ First run section 1.
 First run section 1.
 
 1. Change to the notebooks directory
-
-    ```
-    cd /vagrant/scripts
-    ```
+```
+cd /vagrant/scripts
+```
 
 2. Run the IPython notebook server
-
-    ```
-    chmod +x jpy-notebook.sh
-    ./jpy-notebook.sh
-    ```
+```
+chmod +x jpy-notebook.sh
+./jpy-notebook.sh
+```
 
 3. Open your browser to http://192.168.33.10:8888/ to view the notebooks
 
@@ -118,17 +106,17 @@ a good introduction to deep learning using Keras.
 [80]: https://github.com/leriomaggio/deep-learning-keras-tensorflow
 [90]: https://www.euroscipy.org/2016/program/
 
-### 1. Change to the notebooks directory
+1. Change to the notebooks directory
 ```
 cd /vagrant/scripts
 ```
 
-### 2. Clone the repsitory
+2. Clone the repsitory
 ```
 git clone https://github.com/leriomaggio/deep-learning-keras-tensorflow
 ```
 
-### 3. Open your browser to http://192.168.33.10:8888/tree/deep-learning-keras-tensorflow
+3. Open your browser to http://192.168.33.10:8888/tree/deep-learning-keras-tensorflow
 
 
 ## Requirements
