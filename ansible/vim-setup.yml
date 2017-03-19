@@ -1,0 +1,21 @@
+---
+- name: install Vundle for git plugins
+  git:
+    repo: https://github.com/VundleVim/Vundle.vim.git
+    dest: ~/.vim/bundle/Vundle.vim
+  become_user: ubuntu
+
+- name: install build-essential for "YouCompleteMe"
+  apt: name=build-essential state=installed
+
+- name: install cmake for "YouCompleteMe"
+  apt: name=cmake state=installed
+
+- name: install python-dev for "YouCompleteMe"
+  apt: name=python-dev state=installed
+
+- name: install python3-dev for "YouCompleteMe"
+  apt: name=python3-dev state=installed
+
+- name: install jedi for Python completion
+  pip: name=jedi state=present
