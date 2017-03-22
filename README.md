@@ -127,7 +127,7 @@ git clone https://github.com/leriomaggio/deep-learning-keras-tensorflow
 ~/.bash_it/install.sh
 ```
 
-2. Update your ~/.bashrc file to set the demula theme
+2. Update ~/.bashrc file to modify the following line set the demula theme
 ```
 export BASH_IT_THEME='demula'
 ```
