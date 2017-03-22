@@ -18,4 +18,4 @@
   apt: name=python3-dev state=installed
 
 - name: install jedi for Python completion
-  pip: name=jedi state=present
+  pip: name=jedi state=present executable=pip3

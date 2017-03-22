@@ -1,0 +1,33 @@
+Vundle setup
+
+Clone the repo
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+Get vimrc
+cd ~
+curl -O https://raw.githubusercontent.com/gavinln/vimrc/master/vimrc-min.vim
+
+List the hidden files
+ls -la
+cp vimrc-min.vim .vimrc
+
+Setup plugins
+Open vim and ignore all errors
+
+Type :PluginInstall
+
+
+Compile YouCompleteMe
+cd ~/.vim/bundle/YouCompleteMe
+./install.py
+
+
+TODO:
+Add to .vimrc
+let g:session_autosave = 'no'
+let g:session_autoload = 'no'
+
+
+sudo pip3 install jedi
+
+sudo pip3 install -U pip
