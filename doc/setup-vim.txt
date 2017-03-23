@@ -10,24 +10,21 @@ curl -O https://raw.githubusercontent.com/gavinln/vimrc/master/vimrc-min.vim
 List the hidden files
 ls -la
 cp vimrc-min.vim .vimrc
+dos2unix .vimrc
 
-Setup plugins
+# Setup plugins
 Open vim and ignore all errors
 
 Type :PluginInstall
 
-
-Compile YouCompleteMe
+# Compile YouCompleteMe
 cd ~/.vim/bundle/YouCompleteMe
 ./install.py
-
 
 TODO:
 Add to .vimrc
 let g:session_autosave = 'no'
 let g:session_autoload = 'no'
 
-
 sudo pip3 install jedi
-
 sudo pip3 install -U pip

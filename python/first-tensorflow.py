@@ -1,6 +1,11 @@
-#!/bin/python
+#!/usr/bin/env python3
+
 from __future__ import print_function
 import tensorflow as tf
+
+import pathlib
+mod_path = pathlib.Path(__file__)
+print(mod_path.resolve())
 
 print('tensorflow version: {}'.format(tf.__version__))
 
