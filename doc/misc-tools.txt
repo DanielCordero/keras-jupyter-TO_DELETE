@@ -1,0 +1,8 @@
+Setup other miscellaneous tools
+
+json interactive
+https://github.com/simeji/jid/releases
+
+http prompt
+https://github.com/eliangcs/http-prompt
+
