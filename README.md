@@ -26,12 +26,12 @@ work on Windows, Mac and Linux operating systems.
 
 ### 1. Start the VM
 
-1. Change to the tensorflow-ipy root directory
+1. Change to the keras-jupyter root directory
 ```
 cd keras-jupyter
 ```
 
-3. Make sure you have the latest version of vagrant (1.9.1)
+2. Make sure you have the latest version of vagrant (1.9.1)
 ```
 vagrant -v
 ```
