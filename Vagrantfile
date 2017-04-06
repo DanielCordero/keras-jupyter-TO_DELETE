@@ -54,7 +54,7 @@ Vagrant.configure(2) do |config|
     machine.vm.provider "virtualbox" do |vb|
       # vb.gui = true
       vb.memory = "4096"
-      vb.cpus = "1"
+      vb.cpus = "2"
 
       if Vagrant::Util::Platform.windows? then
         # Fix for slow external network connections for Windows 10
