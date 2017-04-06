@@ -14,4 +14,7 @@ sudo apt-get install osquery
 
 https://facebook.github.io/watchman/
 
+Install midnight commander
+sudo apt-get install mc
+
 
