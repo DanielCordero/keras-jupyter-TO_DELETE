@@ -104,17 +104,10 @@ chmod +x jpy-notebook.sh
 This [tutorial][80] by Valerio Maggio presented at [Euro Scipy 2016][90] is
 a good introduction to deep learning using Keras.
 
-
 [80]: https://github.com/leriomaggio/deep-learning-keras-tensorflow
 [90]: https://www.euroscipy.org/2016/program/
 
-The following presentation is an excellent introduction to the topic.
-
-Introduction to Deep Learning with Keras, from CERN: [video][100], [slides][110]
-
-[100]: http://cds.cern.ch/record/2157570?ln=en
-[110]: https://indico.cern.ch/event/506145/contributions/2132944/attachments/1258124/1858154/NNinKeras_MPaganini.pdf
-
+### To install the tutorial
 
 1. Change to the notebooks directory
 ```
@@ -127,6 +120,17 @@ git clone https://github.com/leriomaggio/deep-learning-keras-tensorflow
 ```
 
 3. Open your browser to http://192.168.33.10:8888/tree/deep-learning-keras-tensorflow
+
+### Introduction to machine learning with Keras
+
+The presentation by Michela Paganini is an excellent introduction to the topic.
+
+* Introduction to Deep Learning with Keras, from CERN: [video][100], [slides][110]
+
+[100]: http://cds.cern.ch/record/2157570?ln=en
+[110]: https://indico.cern.ch/event/506145/contributions/2132944/attachments/1258124/1858154/NNinKeras_MPaganini.pdf
+
+
 
 ## Install bash_it  (optional)
 
