@@ -57,7 +57,7 @@ cd $(jupyter --data-dir)/nbextensions
 git clone https://github.com/lambdalisue/jupyter-vim-binding vim_binding
 ```
 
-7. Optional - To enable the Vim extension open your browser to http://192.168.33.10:8888/tree/deep-learning-keras-tensorflow#nbextensions_configurator
+7. Optional - To enable the Vim extension open your browser to http://192.168.33.10:8888/tree#nbextensions_configurator after you have started the Jupyter notebook as described below.
 
 ### 2. Run your first TensorFlow command line program
 
@@ -91,7 +91,7 @@ First run section 1.
 cd /vagrant/scripts
 ```
 
-2. Run the IPython notebook server
+2. Run the Jupyter notebook server
 ```
 chmod +x jpy-notebook.sh
 ./jpy-notebook.sh
@@ -107,6 +107,14 @@ a good introduction to deep learning using Keras.
 
 [80]: https://github.com/leriomaggio/deep-learning-keras-tensorflow
 [90]: https://www.euroscipy.org/2016/program/
+
+The following presentation is an excellent introduction to the topic.
+
+Introduction to Deep Learning with Keras, from CERN: [video][100], [slides][110]
+
+[100]: http://cds.cern.ch/record/2157570?ln=en
+[110]: https://indico.cern.ch/event/506145/contributions/2132944/attachments/1258124/1858154/NNinKeras_MPaganini.pdf
+
 
 1. Change to the notebooks directory
 ```
@@ -137,13 +145,13 @@ export BASH_IT_THEME='demula'
 ## Requirements
 
 The following software is needed to get the software from github and run
-Vagrant. The Git environment also provides an [SSH client][100] for Windows.
+Vagrant. The Git environment also provides an [SSH client][200] for Windows.
 
-* [Oracle VM VirtualBox][110]
-* [Vagrant][120] version 1.9.1 or higher
-* [Git][130]
+* [Oracle VM VirtualBox][210]
+* [Vagrant][220] version 1.9.1 or higher
+* [Git][230]
 
-[100]: http://en.wikipedia.org/wiki/Secure_Shell
-[110]: https://www.virtualbox.org/
-[120]: http://vagrantup.com/
-[130]: http://git-scm.com/
+[200]: http://en.wikipedia.org/wiki/Secure_Shell
+[210]: https://www.virtualbox.org/
+[220]: http://vagrantup.com/
+[230]: http://git-scm.com/
