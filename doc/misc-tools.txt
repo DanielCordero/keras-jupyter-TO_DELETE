@@ -6,7 +6,10 @@ https://github.com/simeji/jid/releases
 http prompt
 https://github.com/eliangcs/http-prompt
 
+Netdata to monitor
+https://github.com/firehol/netdata
 
+Query system information
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1484120AC4E9F8A1A577AEEE97A80C63C9D8B80B
 sudo add-apt-repository "deb [arch=amd64] https://osquery-packages.s3.amazonaws.com/xenial xenial main"
 sudo apt-get update
@@ -17,4 +20,15 @@ https://facebook.github.io/watchman/
 Install midnight commander
 sudo apt-get install mc
 
+Install progress
+sudo apt-get install progress
+
+Install byobu
+Install https://github.com/jamesob/desk
+
+Install path picker
+https://github.com/facebook/PathPicker
+
+Correct your previous command
+https://github.com/nvbn/thefuck
 

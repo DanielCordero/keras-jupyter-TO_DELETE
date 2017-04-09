@@ -27,6 +27,20 @@
     dest=/etc/profile.d/autojump.sh
   when: autojump_status.changed
 
+# utilities are installed as specified user
+- name: pull fzf repository
+  git:
+    repo=https://github.com/junegunn/fzf.git
+    dest=~/.fzf
+    depth=1
+  register: fzf_status
+  become_user: ubuntu
+
+#- name: install fzf
+#  command: "~/.fzf/install --all"
+#  when: fzf_status.changed
+#  become_user: ubuntu
+
 - name: install bash_it for better bash
   git:
     repo: https://github.com/Bash-it/bash-it.git
