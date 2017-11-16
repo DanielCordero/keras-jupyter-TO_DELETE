@@ -3,3 +3,6 @@ https://github.com/fastforwardlabs/keras-hello-world/blob/master/kerashelloworld
 
 Keras notebooks tutorial
 https://github.com/leriomaggio/deep-learning-keras-tensorflow
+
+Example using MNIST
+https://elitedatascience.com/keras-tutorial-deep-learning-in-python

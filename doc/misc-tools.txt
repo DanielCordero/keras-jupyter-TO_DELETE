@@ -2,6 +2,7 @@ Setup other miscellaneous tools
 
 json interactive
 https://github.com/simeji/jid/releases
+wget https://github.com/simeji/jid/releases/download/0.7.2/jid_linux_amd64.zip
 
 http prompt
 https://github.com/eliangcs/http-prompt
@@ -32,3 +33,5 @@ https://github.com/facebook/PathPicker
 Correct your previous command
 https://github.com/nvbn/thefuck
 
+Inspect HTTP calls
+https://github.com/asciimoo/wuzz

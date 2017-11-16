@@ -11,12 +11,12 @@ This project provides a [Ubuntu (16.04)][10] [Vagrant][20] Virtual Machine (VM)
 with the [Keras][30] and [TensorFlow][40] libraries and [Jupyter][50]
 (formerly known as IPython) notebooks. Keras also works with [Theano][60].
 
-[10]: http://releases.ubuntu.com/14.04/
+[10]: http://releases.ubuntu.com/16.04/
 [20]: http://www.vagrantup.com/
-[30]: http://deeplearning.net/software/theano/
+[30]: https://github.com/fchollet/keras
 [40]: http://tensorflow.org/
 [50]: http://jupyter.org/
-[60]: https://github.com/fchollet/keras
+[60]: http://deeplearning.net/software/theano/
 
 Follow the **Requirements** section below for a one-time setup of Virtualbox,
 Vagrant and Git before running the commands below. These instructions should
@@ -57,7 +57,9 @@ cd $(jupyter --data-dir)/nbextensions
 git clone https://github.com/lambdalisue/jupyter-vim-binding vim_binding
 ```
 
-7. Optional - To enable the Vim extension open your browser to http://192.168.33.10:8888/tree#nbextensions_configurator after you have started the Jupyter notebook as described below.
+7. Optional - To enable the Vim extension open your browser
+to http://192.168.33.10:8888/tree#nbextensions_configurator after you
+have started the Jupyter notebook as described below.
 
 ### 2. Run your first TensorFlow command line program
 
@@ -131,15 +133,16 @@ The presentation by Michela Paganini is an excellent introduction to the topic.
 [110]: https://indico.cern.ch/event/506145/contributions/2132944/attachments/1258124/1858154/NNinKeras_MPaganini.pdf
 
 
-
 ## Install bash_it  (optional)
 
 1. To install bash_it for more features on the command prompt run
+
 ```
 ~/.bash_it/install.sh
 ```
 
 2. Update ~/.bashrc file to modify the following line set the demula theme
+
 ```
 export BASH_IT_THEME='demula'
 ```
